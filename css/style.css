@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdde7e;
+  font-family: 'Miso';
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+.main-card {
+  width: 360px;
+  height: 440px;
+  padding: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px -7px #000;
+}
+.card-center {
+  height: 500px;
+}
+.main-price {
+  color: #02995b;
+  font-size: 64px;
+}
+.card-title {
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+.card-text {
+  font-size: 22px;
+  padding: 0 60px;
+  color: #696969;
+  
+}
